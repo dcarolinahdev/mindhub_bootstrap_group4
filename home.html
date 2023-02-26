@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Logo Amazing Events.png" alt="Logo Amazing Events">
+            </a>
+            <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAE">
+                <div class="navbar-nav">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="upcoming-events.html">Upcoming Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="past-events.html">Past Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="stats.html">Stats</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="carousel slide">
+        </div>
+        <div class="main-events">
+            <div class="filters">
+                <div class="input-group">
+                    <div class="input-group-text">
+                        <input class="form-check-input mt-0" type="checkbox" name="conciertos" value="conciertos">
+                        <label for="conciertos" class="label-spform">Conciertos</label>
+                    </div>
+                    <div class="input-group-text">
+                        <input class="form-check-input mt-0" type="checkbox" name="ferias" value="ferias">
+                        <label for="ferias" class="label-spform">Ferias</label>
+                    </div>
+                    <div class="input-group-text">
+                        <input class="form-check-input mt-0" type="checkbox" name="fiestas" value="fiestas">
+                        <label for="fiestas" class="label-spform">Fiestas</label>
+                    </div>
+                    <div class="input-group-text">
+                        <input class="form-check-input mt-0" type="checkbox" name="cultural" value="cultural">
+                        <label for="cultural" class="label-spform">Cultural</label>
+                    </div>
+                    <div class="input-group-text">
+                        <input class="form-check-input mt-0" type="checkbox" name="otros" value="otros">
+                        <label for="otros" class="label-spform">Otros</label>
+                    </div>
+                </div>
+                <form class="d-flex form-search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            <div class="cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/Concierto de musica1.jpg" class="card-img-top" alt="Music concert">
+                    <div class="card-body">
+                        <h5 class="card-title">Music concert</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="d-flex justify-content-between">
+                            <span>Price $10000</span>
+                            <a href="#" class="btn btn-primary">Buy ticket</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/Maraton3.jpg" class="card-img-top" alt="Marathon">
+                    <div class="card-body">
+                        <h5 class="card-title">Marathon</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="d-flex justify-content-between">
+                            <span>Price $8000</span>
+                            <a href="#" class="btn btn-primary">Buy ticket</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/Salida al museo5.jpg" class="card-img-top" alt="Museum">
+                    <div class="card-body">
+                        <h5 class="card-title">Museum</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="d-flex justify-content-between">
+                            <span>Price $10500</span>
+                            <a href="#" class="btn btn-primary">Buy ticket</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/Cine7.jpg" class="card-img-top" alt="Cinema">
+                    <div class="card-body">
+                        <h5 class="card-title">Cinema</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="d-flex justify-content-between">
+                            <span>Price $6000</span>
+                            <a href="#" class="btn btn-primary">Buy ticket</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="#">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-whatsapp"></i>
+            </a>
+        </div>
+
+        <div class="div-right">Cohort</div>
+    </footer>
+
+</body>
+</html>

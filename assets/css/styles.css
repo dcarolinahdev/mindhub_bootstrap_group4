@@ -44,6 +44,9 @@ html
 main
 {
     padding: var(--padding-gral);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-item > img
@@ -130,3 +133,20 @@ footer div.social a
 }
 
 /* ----- HOME ----- */
+
+/* ----- CONTACT ----- */
+
+.container-form{
+    width: 40%;
+}
+
+.btn-submit{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-submit > button{
+    background-color: var(--main-color);
+    width: 25%;
+}

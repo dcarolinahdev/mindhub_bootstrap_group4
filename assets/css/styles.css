@@ -1,0 +1,131 @@
+/* ------ GENERAL --------- */
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+:root
+{
+    --main-color: crimson;
+    --padding-gral: 1.5rem;
+}
+
+/* ------ NAVBAR --------- */
+
+.navbar
+{
+    background-color: lightgray;
+    padding: 2.5rem var(--padding-gral);
+}
+
+.navbar-brand > img
+{
+    max-width: 10rem;
+}
+
+.nav-link,
+.navbar-nav .nav-link.active,
+.navbar-nav .show >.nav-link
+{
+    color: var(--main-color);
+    font-size: 1.8rem;
+}
+
+/* ------ GENERAL --------- */
+
+main
+{
+    padding: var(--padding-gral);
+}
+
+.carousel-item > img
+{
+    max-height: 100px;
+}
+
+.main-events
+{
+    padding: 2rem 4rem 6rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.filters
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group-text
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-body span
+{
+    font-weight: bold;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:
+        var(--padding-gral)
+        5%
+        var(--padding-gral)
+        var(--padding-gral);
+
+    background-color: lightgrey;
+}
+
+footer div.div-right
+{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+footer div.social
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+footer div.social a
+{
+    text-decoration: none;
+    color: white;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----- HOME ----- */

@@ -97,6 +97,7 @@ footer
         var(--padding-gral);
 
     background-color: lightgrey;
+    color: var(--main-color);
 }
 
 footer div.div-right

@@ -206,3 +206,13 @@ footer div.social a
     width: 25%;
     border: none;
 }
+
+/* ----- DETAILS ----- */
+
+.div-details
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}

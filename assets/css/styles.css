@@ -15,6 +15,7 @@ html
 :root
 {
     --main-color: crimson;
+    --main-color-dark: rgb(156, 25, 51);
     --padding-gral: 1.5rem;
 }
 
@@ -134,6 +135,10 @@ footer div.social a
     justify-content: center;
 }
 
+.nav-link:focus, .nav-link:hover {
+    color: var(--main-color-dark);
+}
+
 /* ----- HOME ----- */
 
 .card-body .btn
@@ -153,6 +158,13 @@ footer div.social a
 
 .container-form
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contact
+{
     width: 40%;
 }
 
@@ -168,4 +180,8 @@ footer div.social a
     background-color: var(--main-color);
     width: 25%;
     border: none;
+}
+
+.btn:focus, .btn:hover {
+    background-color: var(--main-color-dark);
 }

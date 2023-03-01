@@ -51,7 +51,9 @@ main
 
 .carousel-item > img
 {
-    max-height: 100px;
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: calc(0.25rem - 1px);
 }
 
 .main-events
@@ -95,14 +97,17 @@ footer
     align-items: center;
     padding:
         var(--padding-gral)
-        5%
+        2%
         var(--padding-gral)
         var(--padding-gral);
 
     background-color: lightgrey;
     color: var(--main-color);
-}
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
 
+}
 footer div.div-right
 {
     font-weight: bold;
@@ -134,19 +139,30 @@ footer div.social a
 
 /* ----- HOME ----- */
 
+/* ----- STATS ----- */
+
+.container
+{
+    max-height: clamp(20em,200vh,250px);
+    overflow: auto;
+}
+
 /* ----- CONTACT ----- */
 
-.container-form{
+.container-form
+{
     width: 40%;
 }
 
-.btn-submit{
+.btn-submit
+{
     margin-top: 20px;
     display: flex;
     justify-content: flex-end;
 }
 
-.btn-submit > button{
+.btn-submit > button
+{
     background-color: var(--main-color);
     width: 25%;
 }

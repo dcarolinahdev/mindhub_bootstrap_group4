@@ -148,3 +148,24 @@ footer div.social a
     max-height: clamp(20em,200vh,250px);
     overflow: auto;
 }
+
+/* ----- CONTACT ----- */
+
+.container-form
+{
+    width: 40%;
+}
+
+.btn-submit
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-submit > button
+{
+    background-color: var(--main-color);
+    width: 25%;
+    border: none;
+}

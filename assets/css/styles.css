@@ -136,6 +136,14 @@ footer div.social a
 
 /* ----- HOME ----- */
 
+.card-body .btn
+{
+    background-color: var(--main-color);
+    border: none;
+}
+
+/* ----- STATS ----- */
+
 .container{
     max-height: clamp(20em,200vh,250px);
     overflow: auto;

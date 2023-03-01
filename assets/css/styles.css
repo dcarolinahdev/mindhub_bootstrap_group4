@@ -136,17 +136,20 @@ footer div.social a
 
 /* ----- CONTACT ----- */
 
-.container-form{
+.container-form
+{
     width: 40%;
 }
 
-.btn-submit{
+.btn-submit
+{
     margin-top: 20px;
     display: flex;
     justify-content: flex-end;
 }
 
-.btn-submit > button{
+.btn-submit > button
+{
     background-color: var(--main-color);
     width: 25%;
 }

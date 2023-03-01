@@ -141,10 +141,26 @@ footer div.social a
 
 /* ----- HOME ----- */
 
-.card-body .btn
+.card-body .btn-cards
 {
     background-color: var(--main-color);
     border: none;
+}
+
+.btn-cards:hover
+{
+    background-color: var(--main-color-dark);
+}
+
+.btn-outline-success {
+    --bs-btn-color: var(--main-color);
+    --bs-btn-border-color: var(--main-color);
+    --bs-btn-hover-bg: var(--main-color);
+    --bs-btn-hover-border-color: var(--main-color);
+    --bs-btn-active-bg: var(--main-color);
+    --bs-btn-active-border-color: var(--main-color);
+    --bs-btn-disabled-color: var(--main-color);
+    --bs-btn-disabled-border-color: var(--main-color);
 }
 
 /* ----- STATS ----- */
@@ -180,8 +196,4 @@ footer div.social a
     background-color: var(--main-color);
     width: 25%;
     border: none;
-}
-
-.btn:focus, .btn:hover {
-    background-color: var(--main-color-dark);
 }

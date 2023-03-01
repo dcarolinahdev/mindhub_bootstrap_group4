@@ -19,6 +19,12 @@ html
     --padding-gral: 1.5rem;
 }
 
+body
+{
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}
 /* ------ NAVBAR --------- */
 
 .navbar

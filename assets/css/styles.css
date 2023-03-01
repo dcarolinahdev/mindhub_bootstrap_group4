@@ -15,6 +15,7 @@ html
 :root
 {
     --main-color: crimson;
+    --main-color-dark: rgb(156, 25, 51);
     --padding-gral: 1.5rem;
 }
 
@@ -134,9 +135,53 @@ footer div.social a
     justify-content: center;
 }
 
+.nav-link:focus, .nav-link:hover {
+    color: var(--main-color-dark);
+}
+
 /* ----- HOME ----- */
+
+.card-body .btn
+{
+    background-color: var(--main-color);
+    border: none;
+}
+
+/* ----- STATS ----- */
 
 .container{
     max-height: clamp(20em,200vh,250px);
     overflow: auto;
+}
+
+/* ----- CONTACT ----- */
+
+.container-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contact
+{
+    width: 40%;
+}
+
+.btn-submit
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-submit > button
+{
+    background-color: var(--main-color);
+    width: 25%;
+    border: none;
+}
+
+.btn:focus, .btn:hover {
+    background-color: var(--main-color-dark);
 }
